@@ -1,5 +1,12 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
 body {
     background: #F0F0F0 !important;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#navigation {
+	padding: 20px;
 }
 
 #top-panel {
@@ -130,6 +137,22 @@ a:hover {
 #projectstatus {
     border: none !important;
     margin-bottom: 30px !important;
+}
+
+#projectstatus tr:nth-child(odd) {
+	
+}
+
+#projectstatus tr:nth-child(even) {
+	background: #efefef;
+}
+
+#executors > tr:nth-child(odd) {
+	background: white;
+}
+
+#executors > tr:nth-child(even) {
+	background: #efefef;
 }
 
 th, #projectstatus th > a, th > a {
