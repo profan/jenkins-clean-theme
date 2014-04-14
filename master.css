@@ -297,6 +297,17 @@ td.pane, tr.build-row > td {
     text-align: left;
 }
 
+/* Edits */
+td.pane, tr.build-row > td:nth-child(even) {
+	background: white !important;
+}
+
+td.pane, tr.build-row > td:nth-child(odd) {
+	border: 1px solid #ccc;
+	background: white !important;
+}
+/*******/
+
 td.pane:last-of-type, tr.build-row > td:last-of-type {
     border-left: none !important;
 }
@@ -319,7 +330,8 @@ form {
 }
 
 th.pane, tr.build-row > th {
-    background: #bbb !important;
+	background: white !important;
+    /*background: #bbb !important;*/
     border: 1px solid #f0f0f0 !important;
     text-align: left;
     text-indent: 3px;
